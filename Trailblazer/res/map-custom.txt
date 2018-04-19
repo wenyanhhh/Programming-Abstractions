@@ -1,0 +1,19 @@
+# You should put your custom graph data in here.
+# Under FLAGS section, set heuristic=true if you want to allow
+# the app's heuristic function to use straight-line X/Y distance as
+# a heuristic between vertexes in your graph.
+
+IMAGE
+map-usa.jpg
+654
+399
+
+FLAGS
+heuristic=false
+
+VERTICES
+Dallas;310;296
+San Francisco;26;170
+
+EDGES
+Dallas;San Francisco;1720
